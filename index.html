@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Final Submission</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1><strong>MARVEL</strong> HEROES</h1>
+            <div class="dropdown">
+                <button onclick="dropdown()" class="material-icons-outlined dropbtn">menu</button>
+                <ul id="dropdown" class="dropdown-content">
+                    <li><a href="#info">Character Information</a></li>
+                    <li><a href="#bio">Biodata</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="jumbotron">
+            <div class="logo">
+                <img src="assets/images/avengers-logo.png" alt="Avengers">
+            </div>
+            <div class="logo">
+                <img src="assets/images/age-of-ultron.png" alt="Age of Ultron">
+            </div>
+            <div class="logo">
+                <img src="assets/images/infinity-war.png" alt="Infinity War">
+            </div>
+            <div class="logo">
+                <img src="assets/images/endgame-logo.png" alt="Endgame">
+            </div>
+            <div style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1A1A64" fill-opacity="1" d="M0,128L60,133.3C120,139,240,149,360,170.7C480,192,600,224,720,224C840,224,960,192,1080,160C1200,128,1320,96,1380,80L1440,64L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+    </header>
+    <main>
+        <h1 class="center" id="info">Character Information</h1>
+        <div class="content">
+            <div class="container ">
+                <article id="captain" class="card left">
+                    <img src="assets/images/cap.png" id="myImg" alt="
+                    <h5>Steve Rogers</h5>
+                    <h2>Captain America</h2>
+                    <p>Recipient of the Super-Soldier serum, World War II hero Steve Rogers fights for American ideals as one of the world’s mightiest heroes and the leader of the Avengers.</p>" class="image">
+                </article>
+                <article id="iron-man" class="card right">
+                    <img src="assets/images/iron-man.png" id="myImg" alt="
+                        <h5>Tony Stark</h5>
+                        <h2>Iron Man</h2>
+                        <p>Genius. Billionaire. Philanthropist. Tony Stark's confidence is only matched by his high-flying abilities as the hero called Iron Man.</p>" class="image">
+                </article>
+            </div>
+            <div class="container ">
+                <article id="thor" class="card left">
+                    <img src="assets/images/thor.png" id="myImg" alt="
+                    <h5>Thor Odinson</h5>
+                    <h2>Thor</h2>
+                    <p>The son of Odin uses his mighty abilities as the God of Thunder to protect his home Asgard and planet Earth alike.</p>" class="image">
+                </article>
+                <article id="hulk" class="card right">
+                    <img src="assets/images/hulk.png" id="myImg" alt="
+                    <h5>Hulk</h5>
+                    <h2>Bruce Banner</h2>
+                    <p>Bruce Banner lives a life between the soft-spoken scientist he’s always been and the uncontrollable green monster.Dr. Bruce Banner lives a life caught between the soft-spoken scientist he’s always been and the uncontrollable green monster powered by his rage.</p>"
+                        class="image">
+                </article>
+            </div>
+            <div class="container ">
+                <article id="hawkeye" class="card left">
+                    <img src="assets/images/hawkeye.png" id="myImg" alt="
+                    <h5>Clint Barton</h5>
+                    <h2>Hawkeye</h2>
+                    <p>A master marksman and longtime friend of Black Widow, Clint Barton serves as the Avengers’ amazing archer.</p>" class="image">
+                </article>
+                <article id="widow" class="card right">
+                    <img src="assets/images/black-widow.png" id="myImg" alt="
+                    <h5>Natasha Romanoff</h5>
+                    <h2>Black Widow</h2>
+                    <p>Natasha Romanoff, separated from the now-fractured Avengers, confronts the dark path she took to becoming a spy and assassin, as well as events that followed.</p>" class="image">
+                </article>
+            </div>
+            <div class="container ">
+                <article id="war-machine" class="card left">
+                    <img src="assets/images/war-machine.png" id="myImg" alt="
+                    <h5>James Rhodes</h5>
+                    <h2>War Machine</h2>
+                    <p>Military veteran James Rhodes is ready for combat in his advanced armor, adding a formidable arsenal to Tony Stark-created designs.</p>" class="image">
+                </article>
+                <article id="falcon" class="card right">
+                    <img src="assets/images/falcon.png" id="myImg" alt="
+                    <h5>Sam Wilson</h5>
+                    <h2>Captain America</h2>
+                    <p>Sam Wilson, formerly the Falcon, takes on the mantle of Captain America as he teams up with his fellow Avengers.</p>" class="image">
+                </article>
+            </div>
+            <div class="container ">
+                <article id="winter" class="card left">
+                    <img src="assets/images/winter-soldier.png" id="myImg" alt="
+                    <h5>Bucky Barnes</h5>
+                    <h2>Winter Soldier</h2>
+                    <p>Bucky Barnes was brought back from his supposed death to be a brainwashed assassin called the Winter Soldier. Reformed by his friends, he now fights alongside the Avengers.</p>" class="image">
+                </article>
+                <article id="panther" class="card right">
+                    <img src="assets/images/black-panther.png" id="myImg" alt="
+                    <h5>T'Challa</h5>
+                    <h2>Black Panther</h2>
+                    <p>T’Challa is the king of the secretive and highly advanced African nation of Wakanda - as well as the powerful warrior known as the Black Panther.</p>" class="image">
+                </article>
+            </div>
+            <div class="container ">
+                <article id="vision" class="card left">
+                    <img src="assets/images/vision.png" id="myImg" alt="
+                    <h2>Vision</h2>
+                    <p>The android called Vision defies physics and fights as an Avenger with the power of density manipulation and his flawless computer brain.</p>" class="image">
+                </article>
+                <article id="wanda" class="card right">
+                    <img src="assets/images/wanda.png" id="myImg" alt="
+                    <h2>Wanda Maximoff</h2>
+                    <p>Notably powerful, Wanda Maximoff has fought both against and with the Avengers, attempting to hone her abilities and do what she believes is right to help the world.</p>" class="image">
+                </article>
+            </div>
+            <div class="container ">
+                <article id="spidey" class="card left">
+                    <img src="assets/images/spidey.png" id="myImg" alt="
+                    <h5>Peter Parker</h5>
+                    <h2>Spider-Man</h2>
+                    <p>Bitten by a radioactive spider, Peter Parker’s arachnid abilities give him amazing powers he uses to help others, while his personal life continues to offer plenty of obstacles.</p>" class="image">
+                </article>
+                <article id="antman" class="card right">
+                    <img src="assets/images/antman.png" id="myImg" alt="
+                    <h5>Scott Lang</h5>
+                    <h2>Ant-Man</h2>
+                    <p>Overcoming his criminal past, Scott Lang follows in the tiny, yet mighty, footsteps of his predecessor as the size-changing hero known as Ant-Man!</p>" class="image">
+                </article>
+            </div>
+            <div class="container ">
+                <article id="strange" class="card left">
+                    <img src="assets/images/strange.png" id="myImg" alt="
+                    <h5>Stephen Strange</h5>
+                    <h2>Doctor Strange</h2>
+                    <p>Formerly a renowned surgeon, Doctor Stephen Strange now serves as the Sorcerer Supreme—Earth’s foremost protector against magical and mystical threats.</p>" class="image">
+                </article>
+                <article id="starlord" class="card right">
+                    <img src="assets/images/star-lord.png" id="myImg" alt="
+                    <h5>Peter Quill</h5>
+                    <h2>Star-Lord</h2>
+                    <p>Leader of the Guardians of the Galaxy, Peter Quill, known as Star-Lord, brings a sassy sense of humor while protecting the universe from any and all threats.</p>" class="image">
+                </article>
+            </div>
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img">
+                <div id="caption"></div>
+            </div>
+        </div>
+        <aside>
+            <article class="aside-card" id="bio">
+                <header>
+                    <figure>
+                        <h2>Biodata</h2>
+                        <img src="assets/images/Wilbert.jpg" alt="Profile" class="profile-img">
+                    </figure>
+                </header>
+                <section>
+                    <table>
+                        <tr>
+                            <th>Name</th>
+                            <td>Wilbert Chen</td>
+                        </tr>
+                        <tr>
+                            <th>Email</th>
+                            <td>wilbertchen2001@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th>Phone</th>
+                            <td>089699599999</td>
+                        </tr>
+                        <tr>
+                            <th>Instagram</th>
+                            <td>@wbertchen</td>
+                        </tr>
+                    </table>
+                </section>
+            </article>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Tugas Akhir Belajar Dasar Pemrograman Web by Wilbert Chen</p>
+        <p>Information Source from <a href="https://www.marvel.com/characters">Marvel</a></p>
+    </footer>
+
+    <script src="assets/styles/web.js"></script>
+</body>
+
+</html>
